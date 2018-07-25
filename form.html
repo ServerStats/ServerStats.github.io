@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="Images/branding.png">
+    <title>Discord.js Bot Help Form</title>
+  </head>
+  <body class="bo2">
+    <nav>
+      <div class="nav">
+        <ul>
+          <div class="branding"><img class="branding"src="Images/branding.png" alt="Server-Stats-Branding" width="50px" height="50px">
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="form-form">
+      <form class="form" action="https://formspree.io/tp523130@gmail.com" method="POST">
+
+        <h1>Discord.js Bot Help</h1>
+        <h3>If you are in need of help for debugging and buiding a discord bot just fill out this form, and if you want to upload a file so I may look over it to have more precision in my anwser to you can do so too.</h3>
+
+        <div class="form-name"> <!-- Users Name for Form -->
+          <label for="inputName">Name</label>
+          <input type="text" name="Name" class="form-name form-border" id="inputName" placeholder="  First and Last">
+        </div>
+
+        <div class="form-email"> <!-- Users Email for Form -->
+          <label for="inputEmail">Email address</label>
+          <input type="email" name="Email" class="form-email-input form-border" id="inputEmail" aria-describedby="emailHelp" placeholder="  Enter Your Email">
+        </div>
+
+        <div class="form-skype">
+          <label for="skypeUsernameInput">Discord Contact</label>
+          <input type="text" name="Skype" class="form-border" id="skypeUsernameInput" placeholder="  Skype Username">
+        </div>
+
+        <div class="form-text"> <!-- Users Help Question for Form -->
+          <label for="inputText">How Can I Help You?</label><br>
+          <textarea class="form-text form-border" name="Help Wanted" id="inputText" rows="5" placeholder="  Please in short specify how I can help you."></textarea>
+        </div>
+
+        <div class="form-file"> <!-- Users Files Help Needed for Form -->
+          <label for="inputFile">File input</label>
+          <input type="file" name="Files" class="form-file form-input-file" id="inputFile" aria-describedby="fileHelp">
+        </div>
+
+        <button type="submit" value="Send" class="form-Submit-Button">Submit</button>
+
+      </form>
+      <footer id="socials" class="d-flex justify-content-center">
+
+        <div class="social-link">
+          <a href="https://twitter.com/powelltdevelop" target="_blank">
+            <img src="Images/twitter.png" alt="Twitter" height="50px" width="50px">
+          </a>
+            <p>Twitter</p>
+        </div>
+
+        <div class="social-link">
+          <a href="https://www.instagram.com/powelltdevelopmain/" target="_blank">
+            <img src="Images/instagram.png" alt="Instagram" height="50px" width="50px">
+          </a>
+            <p>Instagram</p>
+        </div>
+
+        <div class="social-link">
+          <a href="https://github.com/PowellTravis" target="_blank">
+            <img src="Images/github.png" alt="Github" width="50px" height="50px">
+          </a>
+            <p>GitHub</p>
+        </div>
+
+        <div class="social-link">
+          <a href="https://discord.gg/nCDDKgb" target="_blank">
+            <img src="Images/discord.png" alt="Discord" width="50px" height="50px">
+          </a>
+            <p>Discord Server</p>
+        </div>
+
+
+      </footer>
+      <p class="copyright">TravisPowell &#169; 2018</p>
+    </div>
+  </body>
+</html>
