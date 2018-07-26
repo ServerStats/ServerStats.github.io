@@ -239,6 +239,10 @@ footer {
   margin-bottom: 10px;
 }
 
+@-ms-viewport {
+  width: device-width;
+}
+
 
       /* Media Queries */
 
