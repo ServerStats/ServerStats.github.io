@@ -59,17 +59,10 @@ nav ul li {
   display: none;
 }
 
-.spacing:hover {
-  display: none
-}
-
 .spacingg {
   display: none;
 }
 
-.spacingg:hover {
-  display: none;
-}
 
 .v1 {
   border-left: 2px solid black;
@@ -127,6 +120,13 @@ footer {
   background-color: #7294a0;
   text-align: center;
   margin: 0;
+}
+
+.privacy {
+  background-color: #7294a0;
+  text-align: center;
+  margin: 0;
+  font-size: 12px;
 }
 
 
@@ -243,7 +243,6 @@ footer {
   width: device-width;
 }
 
-
       /* Media Queries */
 
 @media only screen and (min-width: 768px) {
@@ -310,14 +309,13 @@ footer {
     background-image: url(Images/background1.png);
     filter: blur(8px);
     height: 400px;
-    display: show;
+    display: block;
   }
 
   .spacing:hover {
     background-image: url(Images/background1.png);
     filter: blur(0px);
     height: 400px;
-    display: block;
   }
 
   .spacingg {
@@ -325,6 +323,7 @@ footer {
     background-image: url(Images/background1.png);
     filter: blur(8px);
     height: 400px;
+    display: block;
   }
 
   .spacingg:hover {
