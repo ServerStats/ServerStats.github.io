@@ -1,4 +1,5 @@
 console.log("Hello World!");
+import gql from 'graphql-tag';
 
 function onSuccess(res){
   console.log('AJAX: ' + res.message + ',' + res.status);
@@ -28,7 +29,7 @@ headers: {
 $(document).ready(function(){
 fetch('https://api.instagram.com/v1/users/self/media/recent/?access_token=' + token, {
   method: 'GET',
-  Query: {
+  type Query: {
     "data": [{
       "created_time": "",
         "images": {
@@ -44,3 +45,9 @@ fetch('https://api.instagram.com/v1/users/self/media/recent/?access_token=' + to
   // $('.instafeed').attr('src', response.data["0"].images.standard_resolution.url );
 
 }); //Close document.ready
+
+type queryObjects {
+  me {
+    name
+  }
+}
